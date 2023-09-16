@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/toDoFragment2">
+
+    <fragment
+        android:id="@+id/toDoFragment2"
+        android:name="com.example.todo.toDo.ToDoFragment"
+        android:label="ToDoFragment" >
+        <action
+            android:id="@+id/action_toDoFragment2_to_createCardFragment"
+            app:destination="@id/createCardFragment" />
+        <action
+            android:id="@+id/action_toDoFragment2_to_updateCardFragment"
+            app:destination="@id/updateCardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createCardFragment"
+        android:name="com.example.todo.toDo.CreateCardFragment"
+        android:label="fragment_create_card"
+        tools:layout="@layout/fragment_create_card" >
+        <action
+            android:id="@+id/action_createCardFragment_to_toDoFragment2"
+            app:destination="@id/toDoFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateCardFragment"
+        android:name="com.example.todo.toDo.UpdateCardFragment"
+        android:label="fragment_update_card"
+        tools:layout="@layout/fragment_update_card" >
+        <argument
+            android:name="taskTitle"
+            app:argType="string" />
+        <argument
+            android:name="taskPriority"
+            app:argType="string" />
+        <argument
+            android:name="taskId"
+            app:argType="integer" />
+        <argument
+            android:name="taskType"
+            app:argType="string"/>
+    </fragment>
+</navigation>

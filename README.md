@@ -8,9 +8,10 @@ First Screen is a Splash Screen:
 ![1](https://github.com/Bianca2307/toDoApp/assets/97783376/1442900b-1081-4b9e-a211-211565672d46)
 
 In the second screen we can add a task clicking on the plus button 
+![2](https://github.com/Bianca2307/toDoApp/assets/97783376/a82baf9b-33f7-40a2-92cb-6de94a343d3c)
 
-![2](https://github.com/Bianca2307/toDoApp/assets/97783376/6d739b06-4531-4036-8bb6-6b291e2d0024)
-![Uploading Screenshot 2023-11-29 111220.png…]()
+![Screenshot 2023-11-29 111220](https://github.com/Bianca2307/toDoApp/assets/97783376/304f9f82-0bc5-402c-aa7b-640efee25ba2)
+
 
 Also, we can update and delete a task:
 ![Screenshot 2023-11-29 111524](https://github.com/Bianca2307/toDoApp/assets/97783376/0c48000a-ac20-4ccf-bc95-24dd467e6727)
